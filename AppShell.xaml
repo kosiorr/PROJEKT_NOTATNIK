@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="notatnikpam.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:notatnikpam"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <ShellContent Title="Zapis"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Odczyt"
+            ContentTemplate="{DataTemplate local:Odczyt}" />
+    </TabBar>
+
+</Shell>
